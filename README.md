@@ -18,15 +18,17 @@
 
 <h2>Prerequisites</h2>
 
-Linux OS with tools such as iw and nmcli installed.
+> Linux OS with tools such as iw and nmcli installed.
 
-Root/Sudo privileges to change network settings.
+> Root/Sudo privileges to change network settings.
 
 <h2>Installation</h2>
 
 Download the Script:
 
-Clone the repository or simply download the monitor_tool.sh file.
+> Clone the repository.
+
+    git clone https://github.com/Code-With-Abdul-67/Net-Switch.git
 
 Make the Script Executable:
 Open a terminal and run:
@@ -41,41 +43,25 @@ Execute the script with:
 
 <h2>After running the script, you'll be presented with a simple menu to interact with:</h4>
 
-Start Monitor Mode: Enable monitor mode for the selected network interface.
+> Start Monitor Mode: Enable monitor mode for the selected network interface.
 
-Stop Monitor Mode: Switch the interface back to managed mode.
+> Stop Monitor Mode: Switch the interface back to managed mode.
 
-Show Adapter Status: Display detailed status of the selected network interface.
+> Show Adapter Status: Display detailed status of the selected network interface.
 
-Change Adapter: Allows you to choose another network adapter.
+> Change Adapter: Allows you to choose another network adapter.
 
 Exit: Exit the script.
 
 <h2>Example Workflow:</h2>
 
-The script will first prompt you to select an interface from a list of available ones.
+> The script will first prompt you to select an interface from a list of available ones.
 
-Then, you can choose whether to enable monitor mode or disable it.
+> Then, you can choose whether to enable monitor mode or disable it.
 
-You can check the status of the selected interface (e.g., mode, IP address, etc.) at any time.
+> You can check the status of the selected interface (e.g., mode, IP address, etc.) at any time.
 
-You can exit the tool when done or switch to a different interface.
-
-<h2>Script Details</h2>
-
-Sudo Authentication: The script asks for the sudo password only once at the beginning, avoiding repeated prompts.
-
-Interface Mode Checking: The script automatically checks if the selected interface supports monitor mode before attempting to switch.
-
-Color-Coded Output: Output is color-coded for clarity:
-
-Green: Success or confirmation messages.
-
-Yellow: Warnings and status updates.
-
-Red: Errors or invalid actions.
-
-Cyan: General informational messages.
+> You can exit the tool when done or switch to a different interface.
 
 <h2>Contributing</h2>
 
