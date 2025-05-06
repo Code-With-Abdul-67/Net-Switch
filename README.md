@@ -49,8 +49,6 @@ Open a terminal and run:
 
 > Change Adapter: Allows you to choose another network adapter.
 
-Exit: Exit the script.
-
 <h2>Example Workflow:</h2>
 
 > The script will first prompt you to select an interface from a list of available ones.
