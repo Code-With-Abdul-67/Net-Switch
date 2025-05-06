@@ -1,7 +1,8 @@
-Net Switch: Network Adapter Mode Switcher
+<h3>Net Switch: Network Adapter Mode Switcher</h3>
 
-Net Switch is a powerful CLI tool designed to help you easily toggle between monitor mode and managed mode for your wireless network interfaces. Whether you're a network enthusiast, a penetration tester, or just want better control over your wireless adapter, Net Switch simplifies the process.
-Features
+<p>Net Switch is a powerful CLI tool designed to help you easily toggle between monitor mode and managed mode for your wireless network interfaces. Whether you're a network enthusiast, a penetration tester, or just want better control over your wireless adapter, Net Switch simplifies the process.</p>
+
+<h3>Features</h3>
 
     Toggle Monitor Mode: Seamlessly switch your wireless adapter between monitor mode and managed mode.
 
@@ -15,13 +16,13 @@ Features
 
     Safe Operation: Ensures that only the selected interface is affected, leaving others undisturbed.
 
-Prerequisites
+<h3>Prerequisites</h3>
 
     Linux OS with tools such as iw and nmcli installed.
 
     Root/Sudo privileges to change network settings.
 
-Installation
+<h3>Installation</h3>
 
     Download the Script:
 
@@ -33,16 +34,16 @@ Installation
 
     chmod +x monitor_tool.sh
 
-Run the Script:
+<h3>Run the Script:</h3>
 
     Execute the script with:
 
         ./monitor_tool.sh
 
-Usage
-Main Menu Options
+<h3>Usage</h3>
+<h4>Main Menu Options</h4>
 
-After running the script, you'll be presented with a simple menu to interact with:
+<h4>After running the script, you'll be presented with a simple menu to interact with:</h4>
 
     Start Monitor Mode: Enable monitor mode for the selected network interface.
 
@@ -54,7 +55,7 @@ After running the script, you'll be presented with a simple menu to interact wit
 
     Exit: Exit the script.
 
-Example Workflow:
+<h3>Example Workflow:</h3>
 
     The script will first prompt you to select an interface from a list of available ones.
 
@@ -64,7 +65,7 @@ Example Workflow:
 
     You can exit the tool when done or switch to a different interface.
 
-Script Details
+<h3>Script Details</h3>
 
     Sudo Authentication: The script asks for the sudo password only once at the beginning, avoiding repeated prompts.
 
@@ -80,7 +81,7 @@ Script Details
 
         Cyan: General informational messages.
 
-Troubleshooting
+<h3>Troubleshooting</h3>
 
     "No wireless interfaces found"
 
@@ -96,12 +97,13 @@ Troubleshooting
 
         Ensure that you enter the correct password when prompted. If the issue persists, check if you have sudo privileges.
 
-Contributing
+<h3>Contributing</h3>
 
-If you'd like to contribute to Net Switch, feel free to submit an issue or a pull request. Contributions, bug fixes, and improvements are always welcome!
-License
+<p>If you'd like to contribute to Net Switch, feel free to submit an issue or a pull request. Contributions, bug fixes, and improvements are always welcome!
+License</p>
 
-This project is open-source and can be freely used, modified, and distributed under the MIT License.
-Contact
+<p>This project is open-source and can be freely used, modified, and distributed under the MIT License.</p>
+
+<h3>Contact</h3>
 
 For questions, feedback, or support, feel free to reach out.
