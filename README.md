@@ -33,11 +33,11 @@ Download the Script:
 Make the Script Executable:
 Open a terminal and run:
 
-    chmod +x monitor_tool.sh
+    chmod +x netswitch.sh
 
 <h2>Run the Script:</h2>
 
-    ./monitor_tool.sh
+    ./netswitch.sh
 
 <h2>After running the script, you'll be presented with a simple menu to interact with:</h4>
 
