@@ -37,8 +37,6 @@ Open a terminal and run:
 
 <h2>Run the Script:</h2>
 
-Execute the script with:
-
     ./monitor_tool.sh
 
 <h2>After running the script, you'll be presented with a simple menu to interact with:</h4>
