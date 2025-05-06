@@ -39,9 +39,6 @@ Execute the script with:
 
     ./monitor_tool.sh
 
-<h2>Usage</h2>
-<h2>Main Menu Options</h4>
-
 <h2>After running the script, you'll be presented with a simple menu to interact with:</h4>
 
 Start Monitor Mode: Enable monitor mode for the selected network interface.
